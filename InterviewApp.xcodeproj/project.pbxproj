@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		9EF88CB520ABCA73008C4CB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF88CB420ABCA73008C4CB9 /* AppDelegate.swift */; };
-		9EF88CB720ABCA73008C4CB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF88CB620ABCA73008C4CB9 /* ViewController.swift */; };
+		9EF88CB720ABCA73008C4CB9 /* HelloWorldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF88CB620ABCA73008C4CB9 /* HelloWorldViewController.swift */; };
 		9EF88CBA20ABCA73008C4CB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EF88CB820ABCA73008C4CB9 /* Main.storyboard */; };
 		9EF88CBD20ABCA73008C4CB9 /* InterviewApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9EF88CBB20ABCA73008C4CB9 /* InterviewApp.xcdatamodeld */; };
 		9EF88CBF20ABCA74008C4CB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EF88CBE20ABCA74008C4CB9 /* Assets.xcassets */; };
 		9EF88CC220ABCA74008C4CB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EF88CC020ABCA74008C4CB9 /* LaunchScreen.storyboard */; };
+		B2E69F7C21D4463800283794 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E69F7B21D4463800283794 /* NavigationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9EF88CB120ABCA73008C4CB9 /* InterviewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InterviewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EF88CB420ABCA73008C4CB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9EF88CB620ABCA73008C4CB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9EF88CB620ABCA73008C4CB9 /* HelloWorldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldViewController.swift; sourceTree = "<group>"; };
 		9EF88CB920ABCA73008C4CB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9EF88CBC20ABCA73008C4CB9 /* InterviewApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = InterviewApp.xcdatamodel; sourceTree = "<group>"; };
 		9EF88CBE20ABCA74008C4CB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9EF88CC120ABCA74008C4CB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9EF88CC320ABCA74008C4CB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2E69F7B21D4463800283794 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				9EF88CB420ABCA73008C4CB9 /* AppDelegate.swift */,
-				9EF88CB620ABCA73008C4CB9 /* ViewController.swift */,
+				B2E69F7B21D4463800283794 /* NavigationViewController.swift */,
+				9EF88CB620ABCA73008C4CB9 /* HelloWorldViewController.swift */,
 				9EF88CB820ABCA73008C4CB9 /* Main.storyboard */,
 				9EF88CBE20ABCA74008C4CB9 /* Assets.xcassets */,
 				9EF88CC020ABCA74008C4CB9 /* LaunchScreen.storyboard */,
@@ -99,6 +102,7 @@
 				TargetAttributes = {
 					9EF88CB020ABCA73008C4CB9 = {
 						CreatedOnToolsVersion = 9.3.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -138,8 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2E69F7C21D4463800283794 /* NavigationViewController.swift in Sources */,
 				9EF88CBD20ABCA73008C4CB9 /* InterviewApp.xcdatamodeld in Sources */,
-				9EF88CB720ABCA73008C4CB9 /* ViewController.swift in Sources */,
+				9EF88CB720ABCA73008C4CB9 /* HelloWorldViewController.swift in Sources */,
 				9EF88CB520ABCA73008C4CB9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,7 +297,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.InterviewApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -309,7 +314,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.InterviewApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
